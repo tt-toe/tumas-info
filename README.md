@@ -17,8 +17,16 @@
    1. Shuffle
       - Deckが空になった場合、Discard Pileから順番をランダムに並べ直したカードをDeckへ戻すこと
 
-1. Game State
+1. Game Phase
+   下記の繰り返しでゲームを進めていく
+   1. Action Phase
+   2. Supply Phase
+   3. Upload Phase (Deck Building)
 
-
-
-1. Player State
+1. User / Player State
+   1. アカウント作成
+      OAuthまたはE-mail認証
+   3. プロフィール作成
+      Player単位の生成
+   5. ジョブ選択
+      初期Tuberお
